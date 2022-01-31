@@ -1,20 +1,20 @@
-:root {
+/* :root {
   --header-color: #212121;
   --accent-color: #2196f3;
   --white-title-color: #ffffff;
   --black-title-color: #212121;
   --text-color: #757575;
   --button-color: #f5f4fa;
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -38,15 +38,15 @@ ol {
   text-decoration: none;
 }
 
-.header-conect {
+.connect {
   list-style: none;
-}
+} */
 
-address {
+/* address {
   font-style: normal;
-}
+} */
 
-.button {
+/* .button {
   cursor: pointer;
   border: none;
 }
@@ -59,13 +59,13 @@ address {
 .hero-btn {
   cursor: pointer;
   border: none;
-}
+} */
 
-element.style {
+/* element.style {
   display: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -76,18 +76,19 @@ element.style {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
-}
-/*-----------LOGo----------*/
+  outline: 2px solid red;
+} */
 
-.logo-accent {
+/* -----------LOGo---------- */
+
+/* .logo-accent {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -95,9 +96,9 @@ element.style {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
+} */
 /* -----------------heder logo---------------- */
-.header-logo {
+/* .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -106,10 +107,10 @@ element.style {
   letter-spacing: 0.03em;
   color: var(--header-color);
   margin-right: 93px;
-}
+ } */
 
 /*--------header-link-------------*/
-.header {
+/* .header {
   background: #ffffff;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -133,7 +134,7 @@ element.style {
   margin-right: 50px;
 }
 
-.header-conect {
+.connect {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -180,9 +181,9 @@ element.style {
 
 .header-list .link .current {
   color: var(--accent-color);
-}
+} */
 
-.current {
+/* .current {
   color: var(--accent-color);
   position: relative;
 }
@@ -196,11 +197,11 @@ element.style {
   position: absolute;
   left: 0;
   bottom: -32.5px;
-}
+} */
 
 /*-------------HERo-------------*/
 
-.hero {
+/* .hero {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -246,11 +247,11 @@ element.style {
 .hero-btn {
   background: var(--accent-color);
   border-radius: 4px;
-}
+} */
 
 /*-------------about-------------*/
 
-.about {
+/* .about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -290,15 +291,15 @@ element.style {
 .about-item {
   width: 270px;
   margin-right: 30px;
-  /* margin-bottom: 94px; */
+  margin-bottom: 94px;
 }
 
 .about-item:nth-child(4n) {
   margin-right: 0;
-}
+} 
 
 /*-------------section-------------*/
-.section {
+/* .section {
   padding-bottom: 94px;
 }
 
@@ -339,9 +340,9 @@ element.style {
   width: 100%;
   bottom: 0;
   text-transform: uppercase;
-}
+} */
 /*-------------aside-------------*/
-.aside {
+/* .aside {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
@@ -437,10 +438,10 @@ element.style {
   letter-spacing: 0.03em;
   color: var(--text-color);
   padding-bottom: 16px;
-}
+} */
 
 /* ------------ customer-------------- */
-.customers {
+/* .customers {
   background-color: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -495,10 +496,10 @@ element.style {
 .customers-social-link:hover .customers-social-icon,
 .customers-social-link:focus .customers-social-icon {
   fill: var(--accent-color);
-}
+} */
 /*--------------footer--------*/
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
@@ -565,9 +566,9 @@ element.style {
 .footer-address:hover,
 .footer-address:focus {
   color: var(--accent-color);
-}
+} */
 
-.add {
+/* .add {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -621,10 +622,10 @@ element.style {
 .add-social-link:hover .add-social-icon,
 .add-social-link:focus .add-social-icon {
   fill: #ffffff;
-}
+} */
 
 /* ----footer subscribe--------- */
-.footer-subscribe {
+/* .footer-subscribe {
   margin-left: 93px;
 }
 
@@ -694,10 +695,10 @@ element.style {
 .footer-submit-icon {
   margin-left: 10px;
   margin-top: 12px;
-}
+} */
 
 /*----------------------portfolio-----------------*/
-.button {
+/* .button {
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -739,9 +740,9 @@ element.style {
   min-width: 73px;
   min-height: 38px;
   justify-content: center;
-}
+} */
 
-.box {
+/* .box {
   padding-bottom: 94px;
 }
 
@@ -827,10 +828,10 @@ element.style {
 
 .box-text {
   margin-left: 24px;
-}
+} */
 
 /* -----------backdrop------- */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100vw;
@@ -1050,4 +1051,4 @@ element.style {
 .submit-btn {
   cursor: pointer;
   border: none;
-}
+} */
